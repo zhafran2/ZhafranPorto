@@ -51,6 +51,8 @@ export default function ContactForm() {
         errorMessage = error.message;
       } else if (typeof error === "string") {
         errorMessage = error;
+      } else {
+        errorMessage = "Terjadi kesalahan yang tidak diketahui.";
       }
 
       setSubmitStatus({
