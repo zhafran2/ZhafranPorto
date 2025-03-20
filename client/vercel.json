@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "env": {
+      "NEXT_PUBLIC_GOOGLE_GEMINI_API": "AIzaSyBidhic4Q18Q0g2sj6T0hwQS9xfXhvMLCM"
+    }
+  }
