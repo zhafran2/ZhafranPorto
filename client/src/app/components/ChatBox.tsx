@@ -110,7 +110,7 @@ export default function ChatBox() {
         input.toLowerCase().includes('weakness') ? 'swot' : 'chat';
 
       // Kirim ke API
-      const response = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/AI`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_URL}/AI`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
