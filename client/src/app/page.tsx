@@ -227,9 +227,10 @@ export default function Home() {
                   Contact Me
                 </button>
               </Link>
+              <Link href={'/projects'}>
               <button className="px-6 py-3 border border-blue-500 hover:bg-blue-900/20 rounded-lg transition-colors duration-300">
                 View Projects
-              </button>
+              </button></Link>
             </motion.div>
           </motion.div>
         </motion.div>
@@ -255,7 +256,7 @@ export default function Home() {
                 className={`px-5 py-2 rounded-full capitalize ${
                   selectedCategory === category
                     ? "bg-blue-600"
-                    : "bg-gray-700 hover:bg-gray-600"
+                    : "bg-gray-600 hover:bg-gray-500"
                 } transition-colors duration-300`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
