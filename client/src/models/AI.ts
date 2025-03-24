@@ -5,7 +5,7 @@ export default class AI {
   static async PostSwotAI(payload: IAI): Promise<SWOT | null> {
     try {
       const googleAISecret = process.env
-        .NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY as string;
+        .GOOGLE_GEMINI_API_KEY as string;
       console.log(googleAISecret,"INI DI SINI");
         
       const genAI = new GoogleGenerativeAI(googleAISecret);
